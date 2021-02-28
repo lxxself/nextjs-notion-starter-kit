@@ -23,8 +23,8 @@ module.exports = {
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: "https://avatars.githubusercontent.com/u/8406766?s=60&v=4",
+  defaultPageCover: "https://source.unsplash.com/random/1000x500",
   defaultPageCoverPosition: 0.5,
 
   // image CDN host to proxy all image requests through (optional)
