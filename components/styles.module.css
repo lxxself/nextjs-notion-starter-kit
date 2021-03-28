@@ -55,6 +55,10 @@
   align-items: center;
 }
 
+.footer .adBox{
+  display: none;
+}
+
 .copyright {
   font-size: 80%;
   padding: 0.5em;
@@ -129,15 +133,46 @@
     margin-top: 1em;
   }
 
-  .footer .settings {
+  .footer .adBox {
     order: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
   }
-  .footer .social {
+
+  .footer .settings {
     order: 2;
   }
-  .footer .copyright {
+  .footer .social {
     order: 3;
   }
+  .footer .copyright {
+    order: 4;
+  }
+}
+.pageActionContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.adBox a{
+  display: contents;
+}
+
+.topAdImg {
+  width: 50%;
+  height: auto;
 }
 
 .pageActions {
@@ -209,4 +244,20 @@
   .githubCorner .octoArm {
     animation: octocat-wave 560ms ease-in-out;
   }
+}
+
+.seeSth a:link {
+  color: #ff7b00;
+}
+
+.seeSth a:visited {
+  color: #0b2be0;
+}
+
+.seeSth a:hover {
+  color: #f33c0e;
+}
+
+.seeSth a:active {
+  color: #0000FF;
 }

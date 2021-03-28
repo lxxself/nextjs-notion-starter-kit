@@ -21,6 +21,10 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
+      <div className={styles.adBox}>
+        <a target="_blank" href="https://zz.nbdisco.com/download?code=Q5UVE"><img src="/fanli.png" className={styles.topAdImg} /></a>
+      </div>
+
       <div className={styles.copyright}>Copyright 2021 {config.author}</div>
 
       <div className={styles.settings}>

@@ -50,6 +50,7 @@ const socialLinks: SocialLink[] = [
 export const PageSocial: React.FC = () => {
   return (
     <div className={styles.pageSocial}>
+      <a target="_blank" href="https://zz.nbdisco.com/download?code=Q5UVE"><img src="/fanli.png" className={styles.topAd}/></a>
       {socialLinks.map((action) => (
         <a
           className={cs(styles.action, styles[action.name])}

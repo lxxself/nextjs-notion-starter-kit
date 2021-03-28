@@ -32,7 +32,7 @@ export const Page404: React.FC<types.PageProps> = ({ site, pageId, error }) => {
               </p>
             )
           )}
-
+          <p className={styles.seeSth}><a target="_blank" href="https://zz.nbdisco.com/download?code=Q5UVE">See something good?</a></p>
           <img
             src='/404.png'
             alt='404 Not Found'

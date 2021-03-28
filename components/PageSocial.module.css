@@ -125,3 +125,11 @@
     margin-right: 1em;
   }
 }
+
+.topAd {
+  width: 50%;
+  height: auto;
+  right: 0;
+  top: 0;
+  margin-bottom: 20px;
+}
