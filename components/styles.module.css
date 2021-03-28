@@ -141,6 +141,10 @@
     margin-top: 10px;
     margin-left: 0px;
   }
+  .footer .topAdImg {
+    width: 90%;
+    height: 90%;
+  }
 
   .footer .settings {
     order: 2;
